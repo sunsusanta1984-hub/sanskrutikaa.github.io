@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <!-- PWA Manifest -->
-  <link rel="manifest" href="manifest.json">
+  <link rel="manifest" href="/sanskrutikaa.github.io/manifest.json">
   
   <!-- Theme & Status Bar -->
   <meta name="theme-color" content="#0E4A50">
@@ -13,12 +13,12 @@
   <meta name="application-name" content="Sanskrutikaa Handlooms">
   
   <!-- iOS Icons -->
-  <link rel="apple-touch-icon" sizes="152x152" href="icons/icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="192x192" href="icons/icon-192x192.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/sanskrutikaa.github.io/icons/icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/sanskrutikaa.github.io/icons/icon-192x192.png">
   
   <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="96x96"  href="icons/icon-96x96.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/sanskrutikaa.github.io/icons/icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="96x96"  href="/sanskrutikaa.github.io/icons/icon-96x96.png">
   
   <!-- Open Graph -->
   <meta property="og:title" content="Sanskrutikaa Handlooms – Authentic Sambalpuri Sarees">
@@ -905,7 +905,7 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>{
 // ── Service Worker Registration ──
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/sw.js', { scope: '/' })
+    navigator.serviceWorker.register('/sanskrutikaa.github.io/sw.js', { scope: '/' })
       .then(reg => {
         console.log('[PWA] Service Worker registered:', reg.scope);
         // Check for updates every 60 seconds
