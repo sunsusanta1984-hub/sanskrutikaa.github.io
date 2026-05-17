@@ -1,119 +1,25 @@
 {
   "name": "Sanskrutikaa Handlooms",
   "short_name": "Sanskrutikaa",
-  "description": "Authentic Sambalpuri handloom sarees from Jajpur, Odisha. Shop traditional ikat sarees by Sasmita & Nibedita.",
-  "start_url": "/index.html",
+  "description": "Authentic Sambalpuri handloom sarees from Jajpur, Odisha",
+  "start_url": "/sanskrutikaa.github.io/index.html",
+  "scope": "/sanskrutikaa.github.io/",
   "display": "standalone",
   "background_color": "#0E4A50",
   "theme_color": "#0E4A50",
   "orientation": "portrait-primary",
-  "lang": "en-IN",
-  "scope": "/",
-  "categories": [
-    "shopping",
-    "fashion"
-  ],
-  "shortcuts": [
-    {
-      "name": "Browse Sarees",
-      "short_name": "Sarees",
-      "description": "View our saree collection",
-      "url": "/index.html#sarees",
-      "icons": [
-        {
-          "src": "icons/icon-96x96.png",
-          "sizes": "96x96"
-        }
-      ]
-    },
-    {
-      "name": "WhatsApp Order",
-      "short_name": "Order",
-      "description": "Order via WhatsApp",
-      "url": "https://wa.me/919776164994",
-      "icons": [
-        {
-          "src": "icons/icon-96x96.png",
-          "sizes": "96x96"
-        }
-      ]
-    },
-    {
-      "name": "Call Us",
-      "short_name": "Call",
-      "description": "Call Sanskrutikaa",
-      "url": "tel:9776164994",
-      "icons": [
-        {
-          "src": "icons/icon-96x96.png",
-          "sizes": "96x96"
-        }
-      ]
-    }
-  ],
   "icons": [
     {
-      "src": "icons/icon-72x72.png",
-      "sizes": "72x72",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-96x96.png",
-      "sizes": "96x96",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-128x128.png",
-      "sizes": "128x128",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-144x144.png",
-      "sizes": "144x144",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-152x152.png",
-      "sizes": "152x152",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-192x192.png",
+      "src": "/sanskrutikaa.github.io/icons/icon-192x192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any"
+      "purpose": "any maskable"
     },
     {
-      "src": "icons/icon-384x384.png",
-      "sizes": "384x384",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-512x512.png",
+      "src": "/sanskrutikaa.github.io/icons/icon-512x512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icons/icon-maskable-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "screenshots/screen1.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Sanskrutikaa Handlooms Home"
+      "purpose": "any maskable"
     }
   ]
 }
