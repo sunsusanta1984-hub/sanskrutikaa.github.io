@@ -11,10 +11,10 @@ const DYNAMIC_CACHE = `${APP_NAME}-dynamic-${CACHE_VERSION}`;
 const IMAGE_CACHE   = `${APP_NAME}-images-${CACHE_VERSION}`;
 
 // Files to pre-cache on install (App Shell)
-const STATIC_ASSETS = [
-  '/index.html',
-  '/manifest.json',
-  '/offline.html',
+  const STATIC_ASSETS = [
+  '/sanskrutikaa.github.io/index.html',
+  '/sanskrutikaa.github.io/manifest.json',
+  '/sanskrutikaa.github.io/offline.html',
   '/icons/icon-192x192.png',
   '/icons/icon-512x512.png',
   '/icons/icon-maskable-512x512.png',
